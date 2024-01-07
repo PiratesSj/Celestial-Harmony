@@ -36,7 +36,7 @@
     left: 0;
     width: 100%;
     z-index: 999;
-    background-color: rgba(255, 255, 255, .85);
+    background-color: rgb(255, 255, 255);
     -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
@@ -60,6 +60,11 @@
     /* header */
     .navbar-expand-lg .navbar-nav {
         align-items: center;
+        font-size: .875rem;
+
+    }
+    .nav-item{
+        margin: .5rem;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -79,38 +84,11 @@
     }
 
     /* service */
-    .service-item-wrap img {
-        width: 100%;
-    }
 
-    .service-menu-area ul li a {
-        margin-bottom: .8125rem;
-        overflow: hidden;
-    }
-
-    .service-menu-area ul li:nth-child(1) {
-        margin-left: -4.4375rem;
-    }
-
-    .service-menu-area ul li:nth-child(2) {
-        margin-left: -6.9375rem;
-    }
-
-    .service-menu-area ul li:nth-child(3) {
-        margin-left: -9.375rem;
-    }
-
-    .service-menu-area ul li:nth-child(4) {
-        margin-left: -12.8125rem;
-    }
-
-    .service-menu-area ul li a h5 {
-        margin-bottom: .375rem;
-    }
 }
 @media (max-width:990px) {
 
-.tittle,h2{
+.c{
    display: none;
 
 }
@@ -177,35 +155,7 @@ display: none;
 
 @media (max-width: 767px) {
       
-    /* custom css */
-    h1 {
-        font-size: 1.875rem;
-        line-height: 2.5rem;
-    }
-
-    h3 {
-        font-size: 1.75rem;
-        line-height: 2.1875rem;
-    }
-
-    h5 {
-        font-size: 1.25rem;
-    }
-
-    p {
-        font-size: .8125rem;
-        line-height: 1.5rem;
-    }
-
-    /* blog */
-    .blog-content {
-        margin: 0;
-    }
-
-    /* footer */
-    .footer_wrapper>div {
-        padding: 0 1.875rem;
-    }
+ 
     .t{
         display: flex;
         flex-direction: column-reverse;
@@ -224,7 +174,7 @@ display: none;
 
 .booking-area .form-control,
 .booking-area .form-select {
-    border: .0625rem solid var(--primary-color);
+    
     height: 2.5rem;
     text-transform: uppercase;
     font-size: .875rem;
@@ -244,7 +194,7 @@ display: none;
    transform: translate(-50%, -50%);
    
 }
-.tittle,h2{
+.c{
     font-size:5rem;
     font-weight:00%;
     
@@ -281,6 +231,19 @@ object-fit: contain;
     border-radius: 5rem;
     color: white;
 }
+.b1{
+    box-sizing: border-box;
+    border: .2rem solid white;
+  background-color: transparent;
+    height: 3.5rem;
+    width: 14rem;
+    border-radius: 5rem;
+    color: white;
+}
+.b1:hover{
+    background-color: rgb(83,164,184);
+    border: none;
+}
 #b:hover{
     background-color: rgb(83,164,184);
     border: none;
@@ -289,7 +252,13 @@ a{
     text-decoration: none;
     color: white;
 }
-p,span{
+#p{
+    color: white;
+}
+#ps{
+    color: hwb(0 96% 0% / 0.555);
+}
+p span{
     color:rgb(109,109,109) ;
 }
 #a{
@@ -303,18 +272,48 @@ p,span{
     background-repeat: no-repeat;
     background-size: cover; 
     filter: brightness(98%);
+
 }
 #p4{
     height:40rem;
 }
 .p5{
     height:35rem;
+    
     background-image: url("https://imgmedia.lbb.in/media/2023/06/649978902c303c444ac271fc_1687779472340.jpg") ;
     background-repeat: no-repeat;
     background-size: cover; 
-    filter: brightness(98%);
+    filter: brightness(100%);
 }
 footer{
     color: white;
     background-color:rgb(35,34,35) ;
 }
+#r1{
+    background-color: rgb(35,34,35);
+}
+#a2{
+    height: 30rem;
+    background-image: url("https://media.cntraveler.com/photos/63a48b858ff7100986437f3c/16:9/w_3000,h_1687,c_limit/Rancho%20Pescadero_Centro%20Bar%20Drone%20View-kenny-viese.jpg");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: brightness(70%);
+
+}
+.g{
+    height: 30rem;
+}
+
+
+#exampleInputEmail1{
+    background-color: rgb(35,34,35);
+    border:none;
+    border-bottom:.1rem solid white ;
+}
+.px{
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
