@@ -107,10 +107,14 @@
   <div class="container booking-area">
             <form class="row">
                 <div class="col-lg mb-3 mb-lg-0">
-                    <input type="date" class="form-control" placeholder="IN DATE">
+                    <input type="text" class="form-control"  onfocus="(this.type='date')"
+                    onblur="(this.type='text')"
+              placeholder="IN DATE">
                 </div>
                 <div class="col-lg mb-3 mb-lg-0">
-                    <input type="date" class="form-control" placeholder="OUT DATE">
+                    <input type="text" class="form-control" onfocus="(this.type='date')"
+                    onblur="(this.type='text')"
+               placeholder="OUT DATE">
                 </div>
                 <div class="col-lg mb-3 mb-lg-0">
                     <select class="form-select">
